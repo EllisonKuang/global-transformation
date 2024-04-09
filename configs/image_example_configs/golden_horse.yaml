@@ -1,0 +1,10 @@
+image_path: "C:/Users/89299/Desktop/DSA5204/Project/Text2LIVE_C/dark_result/Lawn_KinD_plus_R2.png" # path to the input image
+ill_image_path: "C:/Users/89299/Desktop/DSA5204/Project/Text2LIVE_C/dark_result/Lawn_KinD_plus_I_low.png"
+screen_text: "in the dusk" # texts, describing the edit layer
+comp_text: "in the dusk" # texts, describing the full edited image
+src_text: "Some buildings" # texts, describing the input image
+
+bootstrap_text: "background" # text, describing the region of interest in the input image
+bootstrap_negative_text: "foreground" # text, describing the region of interest in the input image
+
+bootstrap_epoch: 1000 # number of epochs for bootstrapping (it is annealed during training)
